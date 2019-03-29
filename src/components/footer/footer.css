@@ -1,0 +1,35 @@
+.main-footer {
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.made-by {
+  line-height: 40px;
+}
+
+.footer-link {
+  transition: ease-in-out 0.2s all;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-lnk:hover {
+  color: #01d277;
+}
+
+.math-github {
+  color: #fff;
+  padding-left: 10px;
+  font-size: 25px;
+  transition: ease-in-out 0.2s all;
+}
+
+.math-github:hover {
+  color: #01d277;
+}

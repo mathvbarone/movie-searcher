@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+.height-wrapper {
+	min-height: calc(100vh - 100px);
+}
+
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+
+body {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #081c24;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.main-header {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 40px;
+	font-weight: 400;
+}
+
+.main-title {
+	font-size: 3.4rem;
+	display: block;
+	margin-top: 10px;
+}
+
+.movie-db-logo {
+	width: 200px;
+	transition: 0.3s ease-in-out;
+}
+
+.movie-db-logo:hover {
+	transform: scale(1.2);
+}
+
+.btn {
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.2s ease all;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+.btn-small {
+	padding: 3px 25px;
+}
+
+.btn-medium {
+	padding: 5px 30px;
+}
+
+.btn-green {
+	transition: linear 0.2s all;
+	background-color: #01d277;
+}
+
+.btn-green:hover {
+	background-color: #007d47;
+}
+
+.request-loader {
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin: 40px auto;
+	animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+}
+
+.is-hidden {
+	display: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+@keyframes rotate-vert-center {
+	0% {
+		-webkit-transform: rotateY(0);
+		transform: rotateY(0);
+	}
+	100% {
+		-webkit-transform: rotateY(360deg);
+		transform: rotateY(360deg);
+	}
+}

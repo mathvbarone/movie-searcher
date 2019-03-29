@@ -1,0 +1,22 @@
+{
+	"name": "matheus-barone-movie-searcher",
+	"version": "1.0.0",
+	"description": "Matheus Barone - Movie Searcher from 'The MovieDB API'.",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel index.html",
+		"prod": "parcel build index.html"
+	},
+	"author": "Matheus Volpe Barone",
+	"license": "ISC",
+	"dependencies": {
+		"@material-ui/core": "^3.9.2",
+		"@svgr/parcel-plugin-svgr": "^4.1.0",
+		"dayjs": "^1.8.10",
+		"lodash.debounce": "^4.0.8",
+		"parcel-bundler": "^1.12.0",
+		"react": "^16.8.1",
+		"react-dom": "^16.8.1",
+		"react-router-dom": "^4.3.1"
+	}
+}

@@ -1,0 +1,183 @@
+.search {
+	margin-bottom: 60px;
+}
+
+.search-bar-group {
+	position: relative;
+	max-width: 100%;
+	width: 980px;
+	margin: 40px auto 0 auto;
+}
+
+.search-bar-input {
+	height: 50px;
+	border-radius: 5px;
+	background-color: #081c24;
+	width: 100%;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #757575;
+	padding: 17px 10px 10px 20px;
+	outline: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.search-bar-highlight {
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.search-bar-input:focus ~ .search-bar-highlight {
+	animation: inputHighlighter 0.3s ease;
+}
+
+.search-bar-border {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.search-bar-border:before,
+.search-bar-border:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #01d277;
+	transition: 0.2s ease all;
+	display: block;
+}
+.search-bar-border:before {
+	left: 50%;
+}
+.search-bar-border:after {
+	right: 50%;
+}
+
+.search-bar-input:focus ~ .search-bar-border:before,
+.search-bar-input:focus ~ .search-bar-border:after,
+.search-bar-input.is-active ~ .search-bar-border:before,
+.search-bar-input.is-active ~ .search-bar-border:after {
+	width: 50%;
+}
+
+.search-bar-label {
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 20px;
+	top: 15px;
+	transition: 0.2s ease all;
+}
+
+.search-bar-input:focus ~ .search-bar-label,
+.search-bar-input.is-active ~ .search-bar-label {
+	top: -20px;
+	font-size: 0.9rem;
+	color: #ccc;
+}
+
+.fa-times {
+	cursor: pointer;
+	position: absolute;
+	right: 8px;
+	top: 18px;
+	transition: 1s ease-out;
+	color: #fff;
+}
+
+.fa-times:hover {
+	transform: rotate(360deg);
+}
+
+.fa-times:before {
+	position: absolute;
+	right: 3px;
+}
+
+.search-or-random {
+	color: #fff;
+	font-size: 26px;
+	margin: 30px 0;
+	text-align: center;
+	display: block;
+	font-weight: 700;
+}
+
+.oscar-button.btn {
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	margin: 0 auto;
+	background-color: #01d277;
+	padding: 10px 20px;
+	max-width: 440px;
+	width: 100%;
+}
+
+.oscar-icon {
+	display: block;
+	max-width: 44px;
+	margin-left: 5px;
+}
+
+.oscar-icon svg {
+	width: 100%;
+	height: 44px;
+}
+
+@-webkit-keyframes inputHighlighter {
+	from {
+		background: #01d277;
+	}
+	to {
+		width: 0;
+		background: transparent;
+	}
+}
+@-moz-keyframes inputHighlighter {
+	from {
+		background: #01d277;
+	}
+	to {
+		width: 0;
+		background: transparent;
+	}
+}
+@keyframes inputHighlighter {
+	from {
+		background: #01d277;
+	}
+	to {
+		width: 0;
+		background: transparent;
+	}
+}
+
+@media (max-width: 540px) {
+	.oscar-button.btn {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 420px) {
+	.search-bar-label {
+		font-size: 0.9rem;
+	}
+
+	.search-bar-input:focus ~ .search-bar-label,
+	.search-bar-input.is-active ~ .search-bar-label {
+		font-size: 0.8rem;
+	}
+}
