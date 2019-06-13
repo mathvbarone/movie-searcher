@@ -6,6 +6,7 @@ A Movie Searcher using the API provided by MovieDB with React.
 - React
 - HTML
 - CSS 
+- Javascript
 - Parcel-Bundler
 
 ## Demo:
