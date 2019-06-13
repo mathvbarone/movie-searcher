@@ -10,4 +10,4 @@ A Movie Searcher using the API provided by MovieDB with React.
 - Parcel-Bundler
 
 ## Demo:
-[https://matheusbarone.com/react-youtube/](https://matheusbarone.com/react-youtube/)
+[https://searcher-movie-db.herokuapp.com/](https://searcher-movie-db.herokuapp.com/)
