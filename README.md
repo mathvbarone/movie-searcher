@@ -9,7 +9,7 @@ A Movie Searcher using the API provided by MovieDB with React.
 - Parcel-Bundler
 
 ## Demo:
-[https://movie-searcher-movie-db.herokuapp.com/](https://movie-searcher-movie-db.herokuapp.com/)
+[https://searcher-movie-db.herokuapp.com/](https://searcher-movie-db.herokuapp.com/)
 
 ## Development server
 
