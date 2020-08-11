@@ -42413,7 +42413,7 @@ var MoviesList = function MoviesList(_ref) {
   var movies = _ref.movies;
   return /*#__PURE__*/_react.default.createElement(_Grid.default, {
     container: true,
-    justify: "center",
+    justify: "flex-start",
     spacing: 2
   }, movies.map(function (movie) {
     return /*#__PURE__*/_react.default.createElement(_Grid.default, {
@@ -43326,7 +43326,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59130" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61046" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
