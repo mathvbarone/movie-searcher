@@ -42932,7 +42932,7 @@ const MovieDetail = props => {
     return "green";
   };
 
-  const backgroundImage = path => path ? "url(".concat(_movieDbApi.BACKDROP_URL, "/").concat(backdrop_path, ")") : "";
+  const backgroundImage = path => path && "url(".concat(_movieDbApi.BACKDROP_URL, "/").concat(backdrop_path, ")");
 
   const {
     backdrop_path,
@@ -43116,7 +43116,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59182" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51846" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -28,7 +28,7 @@ const MovieDetail = (props) => {
   };
 
   const backgroundImage = (path) =>
-    path ? `url(${BACKDROP_URL}/${backdrop_path})` : "";
+    path && `url(${BACKDROP_URL}/${backdrop_path})`;
 
   const {
     backdrop_path,
