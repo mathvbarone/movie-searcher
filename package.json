@@ -1,26 +1,33 @@
 {
-	"name": "matheus-barone-movie-searcher",
-	"version": "1.0.0",
-	"description": "Matheus Barone - Movie Searcher from 'The MovieDB API'.",
-	"main": "index.js",
-	"scripts": {
-		"watch": "parcel watch index.html",
-		"start": "parcel index.html",
-		"heroku-postbuild": "echo Skip build on Heroku"
-	},
-	"author": "Matheus Barone <matheusvbarone@gmail.com> (http://matheusbarone.com/)",
-	"license": "ISC",
-	"dependencies": {
-		"@heroku/update-node-build-script": "^1.0.3",
-		"@material-ui/core": "^4.11.0",
-		"@svgr/parcel-plugin-svgr": "^5.4.0",
-		"dayjs": "^1.8.33",
-		"express": "^4.17.1",
-		"lodash.debounce": "^4.0.8",
-		"parcel-bundler": "^1.12.4",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"react-router-dom": "^5.2.0"
-	},
-	"heroku-run-build-script": true
+  "name": "matheus-barone-movie-searcher",
+  "version": "1.0.0",
+  "description": "Matheus Barone - Movie Searcher from 'The MovieDB API'.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel watch index.html",
+    "start": "parcel index.html",
+    "heroku-postbuild": "echo Skip build on Heroku"
+  },
+  "author": "Matheus Barone <matheusvbarone@gmail.com> (http://matheusbarone.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@heroku/update-node-build-script": "^1.0.3",
+    "@material-ui/core": "^4.11.0",
+    "@svgr/parcel-plugin-svgr": "^5.4.0",
+    "dayjs": "^1.8.33",
+    "express": "^4.17.1",
+    "lodash.debounce": "^4.0.8",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ],
+  "heroku-run-build-script": true
 }
