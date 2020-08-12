@@ -42973,9 +42973,9 @@ const MovieDetail = props => {
     className: "movie-detail-tagline"
   }, tagline), /*#__PURE__*/_react.default.createElement("ul", {
     className: "movie-detail-genres"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "Genres:")), genres ? genres.map(genre => /*#__PURE__*/_react.default.createElement("li", {
+  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "Genres:")), genres && genres.map(genre => /*#__PURE__*/_react.default.createElement("li", {
     key: genre.id
-  }, genre.name)) : null), /*#__PURE__*/_react.default.createElement("span", {
+  }, genre.name))), /*#__PURE__*/_react.default.createElement("span", {
     className: "movie-detail-release"
   }, /*#__PURE__*/_react.default.createElement("strong", null, "Release Date: "), (0, _dayjs.default)(release_date).format("MMMM D, YYYY")))), /*#__PURE__*/_react.default.createElement("section", {
     className: "movie-detail-content"
@@ -43116,7 +43116,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51846" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49779" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

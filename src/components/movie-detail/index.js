@@ -79,9 +79,8 @@ const MovieDetail = (props) => {
               <li>
                 <strong>Genres:</strong>
               </li>
-              {genres
-                ? genres.map((genre) => <li key={genre.id}>{genre.name}</li>)
-                : null}
+              {genres &&
+                genres.map((genre) => <li key={genre.id}>{genre.name}</li>)}
             </ul>
             <span className="movie-detail-release">
               <strong>Release Date: </strong>
